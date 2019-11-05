@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-05T09:51:17.806Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36" etag="YizSpdXF22PeCumW9Djf" version="12.2.0" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-05T12:03:39.501Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36" etag="j44zJgfM5xBvjtGtW9iS" version="12.2.0" type="github" pages="1">
   <diagram id="c54ahLHcIgC-Hy-V76fX" name="Page-1">
     <mxGraphModel dx="585" dy="730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -49,8 +49,8 @@
         <mxCell id="EYv-WufFpoWmrTShHV3W-23" value="mem" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="1000" y="300" width="40" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="EYv-WufFpoWmrTShHV3W-24" value="P：&lt;span style=&quot;font-weight: normal&quot;&gt;前一个chunk是否使用&lt;br&gt;M：chunk是否通过mmap分配获得&lt;br&gt;A：&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="1080" y="450" width="190" height="60" as="geometry"/>
+        <mxCell id="EYv-WufFpoWmrTShHV3W-24" value="P：&lt;span style=&quot;font-weight: normal&quot;&gt;前一个chunk是否使用&lt;/span&gt;&lt;br&gt;M：&lt;span style=&quot;font-weight: normal&quot;&gt;此chunk是否通过mmap分配获得&lt;/span&gt;&lt;br&gt;A：&lt;span style=&quot;font-weight: normal&quot;&gt;此&lt;/span&gt;&lt;span style=&quot;font-weight: 400&quot;&gt;chunk是否属于main_area&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1080" y="440" width="220" height="60" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
