@@ -1,9 +1,27 @@
-<mxfile modified="2019-11-05T02:03:31.661Z" host="www.draw.io" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36" etag="Zx6UjYj8ZjCEjce5676u" version="12.2.0" type="github" pages="1">
+<mxfile modified="2019-11-05T03:17:52.722Z" host="www.draw.io" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36" etag="Gt1JNpgaVqlA1ueiCHMO" version="12.2.0" type="github" pages="1">
   <diagram id="07fea595-8f29-1299-0266-81d95cde20df" name="Page-1">
-    <mxGraphModel dx="2048" dy="1059" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="879" dy="232" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
+        <mxCell id="OS_XArsNiiwdE0Fefawg-756" value="实际用户数据部分&lt;br&gt;malloc_usable_size()返回该部分大小" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="1090" width="310" height="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="OS_XArsNiiwdE0Fefawg-757" value="当前chunk的size，包含头部开销" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="1050" width="220" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="OS_XArsNiiwdE0Fefawg-758" value="前一个chunk的size(如果其空闲)" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="1010" width="310" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="OS_XArsNiiwdE0Fefawg-759" value="M" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1670" y="1050" width="30" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="OS_XArsNiiwdE0Fefawg-760" value="P" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1700" y="1050" width="30" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="OS_XArsNiiwdE0Fefawg-761" value="A" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="1050" width="30" height="40" as="geometry"/>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
