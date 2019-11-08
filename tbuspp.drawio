@@ -1,0 +1,40 @@
+<mxfile host="www.draw.io" modified="2019-11-08T09:47:02.640Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36" etag="8th9Hw6y88esr005oxbB" version="12.2.2" type="github" pages="1">
+  <diagram id="DeTcR2ddXe0aXChrnhDB" name="Page-1">
+    <mxGraphModel dx="568" dy="1588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="juWBPiS8LpCrzN6CJ-U1-1" value="ServerDepend" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="100" y="240" width="370" height="128" as="geometry"/>
+        </mxCell>
+        <mxCell id="juWBPiS8LpCrzN6CJ-U1-2" value="# pdata_: std::vector&lt;troute::ServerNameAndAddress*&gt;*" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="juWBPiS8LpCrzN6CJ-U1-1" vertex="1">
+          <mxGeometry y="26" width="370" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="juWBPiS8LpCrzN6CJ-U1-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="juWBPiS8LpCrzN6CJ-U1-1" vertex="1">
+          <mxGeometry y="50" width="370" height="8" as="geometry"/>
+        </mxCell>
+        <mxCell id="juWBPiS8LpCrzN6CJ-U1-4" value="+ AddName(unsigned int id, const std::string&amp; name): int &#xa;+ GetName(unsigned int id) const: string&#xa;+ GetHandle(unsigned int id) const: ServerNameAndAddress *&#xa;+ GetRawData(): void *" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="juWBPiS8LpCrzN6CJ-U1-1" vertex="1">
+          <mxGeometry y="58" width="370" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="juWBPiS8LpCrzN6CJ-U1-5" value="baseagent\tbuspp_api\tbuspp.h" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="100" y="220" width="180" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="juWBPiS8LpCrzN6CJ-U1-11" value="baseagent\troute\server_name_address.h" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="120" y="490" width="230" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="juWBPiS8LpCrzN6CJ-U1-16" value="ServerNameAndAddress" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="120" y="510" width="370" height="238" as="geometry"/>
+        </mxCell>
+        <mxCell id="juWBPiS8LpCrzN6CJ-U1-17" value="# address_[kAdressMaxLength]: char &#xa;# me_version_: unsigned int&#xa;# top_offset_: unsigned int&#xa;# field_offset_[kAddress_root_level * 2+2]: int&#xa;# hash_id_: unsigned int&#xa;# ip_[20]: char&#xa;# port_: unsigned int&#xa;# conn_type_: ConnType&#xa;# protocol_type_: ProtocolType" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;" parent="juWBPiS8LpCrzN6CJ-U1-16" vertex="1">
+          <mxGeometry y="26" width="370" height="134" as="geometry"/>
+        </mxCell>
+        <mxCell id="juWBPiS8LpCrzN6CJ-U1-18" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="juWBPiS8LpCrzN6CJ-U1-16" vertex="1">
+          <mxGeometry y="160" width="370" height="8" as="geometry"/>
+        </mxCell>
+        <mxCell id="juWBPiS8LpCrzN6CJ-U1-19" value="+ AddName(unsigned int id, const std::string&amp; name): int &#xa;+ GetName(unsigned int id) const: string&#xa;+ GetHandle(unsigned int id) const: ServerNameAndAddress *&#xa;+ GetRawData(): void *" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="juWBPiS8LpCrzN6CJ-U1-16" vertex="1">
+          <mxGeometry y="168" width="370" height="70" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
