@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2019-11-09T07:02:22.044Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36" etag="Ox0OorS4jsQ5Z9Of9keJ" version="12.2.2" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-09T07:25:41.252Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36" etag="ebArBuCBLpuEtg0PDXuZ" version="12.2.2" type="github" pages="1">
   <diagram id="DeTcR2ddXe0aXChrnhDB" name="Page-1">
-    <mxGraphModel dx="1914" dy="501" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3202" dy="1108" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -92,16 +92,16 @@
           <mxGeometry x="615" y="720" width="370" height="453.07142857142856" as="geometry"/>
         </mxCell>
         <mxCell id="Zlj-ud3cJdW0BJ65da6C-24" value="InServer" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Zlj-ud3cJdW0BJ65da6C-23">
-          <mxGeometry y="23.07142857142857" width="370" height="420.2285714285714" as="geometry"/>
+          <mxGeometry y="23.07142857142857" width="370" height="570.2285714285714" as="geometry"/>
         </mxCell>
-        <mxCell id="Zlj-ud3cJdW0BJ65da6C-25" value="# pdata_: Inserver*" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Zlj-ud3cJdW0BJ65da6C-24">
-          <mxGeometry y="26" width="370" height="24" as="geometry"/>
+        <mxCell id="Zlj-ud3cJdW0BJ65da6C-25" value="# name_: std::string&#xa;# user_data_: std::string &#xa;# puser_server_: Server* &#xa;# pserver_dispatch_: Server* &#xa;# pclient_dispatch_: Server* &#xa;# pmgr_: InServerMgr* &#xa;# pme_:  troute::ServerNameAndAddress* &#xa;# pdepend_: ServerDepend* &#xa;# max_proc_count_:  int&#xa;# tcp_server_port_: unsigned int &#xa;# tcp_clients_: std::map&lt;std::string, InsPtr&gt; &#xa;# pmsg_context_: const MsgContext* " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Zlj-ud3cJdW0BJ65da6C-24">
+          <mxGeometry y="26" width="370" height="174" as="geometry"/>
         </mxCell>
         <mxCell id="Zlj-ud3cJdW0BJ65da6C-26" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="Zlj-ud3cJdW0BJ65da6C-24">
-          <mxGeometry y="50" width="370" height="9.228571428571428" as="geometry"/>
+          <mxGeometry y="200" width="370" height="9.228571428571428" as="geometry"/>
         </mxCell>
         <mxCell id="Zlj-ud3cJdW0BJ65da6C-27" value="+ InServer(const std::string&amp; name, const std::string&amp; user_data)&#xa;+ ~InServer()&#xa;&#xa;+ SetDepend(ServerDepend* pdepend): int&#xa;+ SetServerMgr(InServerMgr* pmgr): void&#xa;+ MakeIns(): void&#xa;&#xa;+ LogOut(int level, const std::string&amp; loginfo): int&#xa;+ SetProcLimit(int msg_count): void&#xa;+ GetProcLimit(): int&#xa;+ SetTcpServerPort(unsigned int port): bool&#xa;&#xa;+ SetUserServer(Server* pserver): void&#xa;+ SetServerDispatch(Server* pserver): void&#xa;+ SetClientDispatch(Server* pserver): void &#xa;+ EnableNotify(unsigned long long mask): void &#xa;&#xa;+ SetMsgSendUesc(unsigned long long msg_send_uesc): void&#xa;+ SetMsgExpireUsec(unsigned long long expire_usec): void&#xa;+ CreateTcpClientDispatch(): void&#xa;+ SetTcpClientIns(const std::string&amp; name, InsPtr pins): void&#xa;+ SetOption(ServerOption key, void* param): void&#xa;+ SetMsgContext(const MsgContext* pmsg_context): void&#xa;&#xa;+ Update(bool has_event = false): void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Zlj-ud3cJdW0BJ65da6C-24">
-          <mxGeometry y="59.22857142857143" width="370" height="361" as="geometry"/>
+          <mxGeometry y="209.22857142857143" width="370" height="361" as="geometry"/>
         </mxCell>
         <mxCell id="Zlj-ud3cJdW0BJ65da6C-28" value="baseagent\tbuspp_api\inserver.h" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Zlj-ud3cJdW0BJ65da6C-23">
           <mxGeometry width="180" height="23.07142857142857" as="geometry"/>
