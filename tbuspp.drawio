@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2019-11-09T07:38:31.768Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36" etag="VsP3cB-7KuU_e2qZ2PAC" version="12.2.2" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-09T07:59:23.730Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36" etag="E6HBRkP4BYA2jwAXBP7u" version="12.2.2" type="github" pages="1">
   <diagram id="DeTcR2ddXe0aXChrnhDB" name="Page-1">
-    <mxGraphModel dx="2962" dy="1108" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2015" dy="501" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -144,6 +144,21 @@
             <mxPoint x="1308" y="512" as="sourcePoint"/>
             <mxPoint x="1307.5" y="659.5714285714284" as="targetPoint"/>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Zlj-ud3cJdW0BJ65da6C-46" value="EventHandleOpt" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1115" y="1043" width="380" height="150.22857142857143" as="geometry"/>
+        </mxCell>
+        <mxCell id="Zlj-ud3cJdW0BJ65da6C-47" value="# debug_: std::string" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Zlj-ud3cJdW0BJ65da6C-46">
+          <mxGeometry y="26" width="380" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="Zlj-ud3cJdW0BJ65da6C-48" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="Zlj-ud3cJdW0BJ65da6C-46">
+          <mxGeometry y="50" width="380" height="9.228571428571428" as="geometry"/>
+        </mxCell>
+        <mxCell id="Zlj-ud3cJdW0BJ65da6C-49" value="+ AddServer(Server* pServer, ServerDepend* pdepend = NULL): int &#xa;+ DelServer(Server* pServer): int&#xa;+ GetLoopMsgCount(): int&#xa;+ Update(bool has_event = false): void&#xa;+ OnceLoop(unsigned int wait_msec = 10): int&#xa;+ Loop(bool* prun, unsigned int wait_msec = 10): int" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Zlj-ud3cJdW0BJ65da6C-46">
+          <mxGeometry y="59.22857142857143" width="380" height="91" as="geometry"/>
+        </mxCell>
+        <mxCell id="Zlj-ud3cJdW0BJ65da6C-50" value="baseagent\baseagent_api\instance_resource.h" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1105" y="1020" width="265" height="23" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
