@@ -1,11 +1,11 @@
-<mxfile host="www.draw.io" modified="2019-11-09T10:09:21.556Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36" etag="n6fp3eNn01bosLXlut09" version="12.2.2" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-09T10:24:47.623Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36" etag="4mJLs5YpnTIVMZxogOdM" version="12.2.2" type="github" pages="1">
   <diagram id="DeTcR2ddXe0aXChrnhDB" name="Page-1">
-    <mxGraphModel dx="2015" dy="501" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3202" dy="1108" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
         <mxCell id="Zlj-ud3cJdW0BJ65da6C-6" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="100" y="247" width="370" height="148" as="geometry"/>
+          <mxGeometry x="1641" y="383" width="370" height="148" as="geometry"/>
         </mxCell>
         <mxCell id="juWBPiS8LpCrzN6CJ-U1-1" value="ServerDepend" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="Zlj-ud3cJdW0BJ65da6C-6" vertex="1">
           <mxGeometry x="-6" y="20" width="370" height="128" as="geometry"/>
@@ -23,7 +23,7 @@
           <mxGeometry width="180" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="Zlj-ud3cJdW0BJ65da6C-8" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="-432" y="527" width="430" height="170" as="geometry"/>
+          <mxGeometry x="2122" y="663" width="430" height="170" as="geometry"/>
         </mxCell>
         <mxCell id="Zlj-ud3cJdW0BJ65da6C-1" value="MakeServerNameAndAddress" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Zlj-ud3cJdW0BJ65da6C-8">
           <mxGeometry x="10" y="20" width="420" height="156" as="geometry"/>
@@ -40,16 +40,17 @@
         <mxCell id="Zlj-ud3cJdW0BJ65da6C-5" value="baseagent\troute\troute_api.h" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Zlj-ud3cJdW0BJ65da6C-8">
           <mxGeometry width="170" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="Zlj-ud3cJdW0BJ65da6C-9" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;fontColor=#45FFA8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Zlj-ud3cJdW0BJ65da6C-2" target="juWBPiS8LpCrzN6CJ-U1-17">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="9" y="584" as="sourcePoint"/>
-            <mxPoint x="89" y="584" as="targetPoint"/>
+        <mxCell id="Zlj-ud3cJdW0BJ65da6C-9" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;fontColor=#45FFA8;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Zlj-ud3cJdW0BJ65da6C-2" target="juWBPiS8LpCrzN6CJ-U1-17">
+          <mxGeometry x="-1" y="-587" width="160" relative="1" as="geometry">
+            <mxPoint x="1550" y="720" as="sourcePoint"/>
+            <mxPoint x="1630" y="720" as="targetPoint"/>
+            <mxPoint x="-300" y="-83" as="offset"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="Zlj-ud3cJdW0BJ65da6C-16" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;fontColor=#45FFA8;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="juWBPiS8LpCrzN6CJ-U1-16" target="juWBPiS8LpCrzN6CJ-U1-4">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="420" y="404" as="sourcePoint"/>
-            <mxPoint x="420" y="500" as="targetPoint"/>
+            <mxPoint x="1961" y="540" as="sourcePoint"/>
+            <mxPoint x="1961" y="636" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="Zlj-ud3cJdW0BJ65da6C-17" value="" style="group" vertex="1" connectable="0" parent="1">
@@ -71,7 +72,7 @@
           <mxGeometry width="180" height="23.07142857142857" as="geometry"/>
         </mxCell>
         <mxCell id="Zlj-ud3cJdW0BJ65da6C-35" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="1116" y="360" width="380" height="149.2285714285714" as="geometry"/>
+          <mxGeometry x="1116" y="380" width="380" height="149.2285714285714" as="geometry"/>
         </mxCell>
         <mxCell id="Zlj-ud3cJdW0BJ65da6C-30" value="ServerMgr" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Zlj-ud3cJdW0BJ65da6C-35">
           <mxGeometry y="23" width="380" height="126.22857142857143" as="geometry"/>
@@ -119,10 +120,10 @@
           <mxGeometry x="620" y="740" width="180" height="23.07142857142857" as="geometry"/>
         </mxCell>
         <mxCell id="juWBPiS8LpCrzN6CJ-U1-11" value="baseagent\troute\server_name_address.h" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="100" y="480" width="230" height="20" as="geometry"/>
+          <mxGeometry x="1641" y="616" width="230" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="juWBPiS8LpCrzN6CJ-U1-16" value="ServerNameAndAddress" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="89" y="500" width="380" height="280" as="geometry"/>
+          <mxGeometry x="1630" y="636" width="380" height="280" as="geometry"/>
         </mxCell>
         <mxCell id="juWBPiS8LpCrzN6CJ-U1-17" value="# address_[kAdressMaxLength]: char &#xa;# me_version_: unsigned int&#xa;# top_offset_: unsigned int&#xa;# field_offset_[kAddress_root_level * 2+2]: int&#xa;# hash_id_: unsigned int&#xa;# ip_[20]: char&#xa;# port_: unsigned int&#xa;# conn_type_: ConnType&#xa;# protocol_type_: ProtocolType" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;" parent="juWBPiS8LpCrzN6CJ-U1-16" vertex="1">
           <mxGeometry y="26" width="380" height="134" as="geometry"/>
@@ -146,7 +147,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Zlj-ud3cJdW0BJ65da6C-46" value="EventHandleOpt" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="1115" y="1043" width="380" height="170.22857142857143" as="geometry"/>
+          <mxGeometry x="1220" y="1613" width="380" height="170.22857142857143" as="geometry"/>
         </mxCell>
         <mxCell id="Zlj-ud3cJdW0BJ65da6C-47" value="# debug_: std::string" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Zlj-ud3cJdW0BJ65da6C-46">
           <mxGeometry y="26" width="380" height="24" as="geometry"/>
@@ -158,22 +159,36 @@
           <mxGeometry y="59.22857142857143" width="380" height="111" as="geometry"/>
         </mxCell>
         <mxCell id="Zlj-ud3cJdW0BJ65da6C-50" value="baseagent\baseagent_api\instance_resource.h" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1105" y="1020" width="265" height="23" as="geometry"/>
+          <mxGeometry x="1210" y="1590" width="265" height="23" as="geometry"/>
         </mxCell>
         <mxCell id="Zlj-ud3cJdW0BJ65da6C-51" value="InstanceReg" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="1640" y="750" width="430" height="280.2285714285714" as="geometry"/>
+          <mxGeometry x="1820" y="1243" width="440" height="370.2285714285714" as="geometry"/>
         </mxCell>
         <mxCell id="Zlj-ud3cJdW0BJ65da6C-52" value="+ static dispatch_: ServerDispatch &#xa;# shm_epoll_id_: unsigned long long&#xa;# plocal_ins_v_[1024]: const troute::ServerNameAndAddress*&#xa;# pevt_mask_v_[1024]: int&#xa;# server_set_: std::set&lt;Server*&gt; &#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Zlj-ud3cJdW0BJ65da6C-51">
-          <mxGeometry y="26" width="430" height="74" as="geometry"/>
+          <mxGeometry y="26" width="440" height="74" as="geometry"/>
         </mxCell>
         <mxCell id="Zlj-ud3cJdW0BJ65da6C-53" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="Zlj-ud3cJdW0BJ65da6C-51">
-          <mxGeometry y="100" width="430" height="9.228571428571428" as="geometry"/>
+          <mxGeometry y="100" width="440" height="9.228571428571428" as="geometry"/>
         </mxCell>
-        <mxCell id="Zlj-ud3cJdW0BJ65da6C-54" value="+ Regist(const troute::ServerNameAndAddress&amp; instance,&#xa;              int start_rule, bool check_obj_id = false): int &#xa;+ InstanceExist(const troute::ServerNameAndAddress&amp; instance, &#xa;              int* ppid = NULL): int&#xa;+ GetInstancePid(const troute::ServerNameAndAddress&amp; instance, &#xa;              int* ppid): int&#xa;+ CheckRegInsIpPort(const troute::ServerNameAndAddress&amp; instance): bool&#xa;+ FetchGameidAllRoutes(const std::string&amp; gameid, &#xa;              const std::string&amp; password): int&#xa;+ StartupInstanceToNotify(const troute::ServerNameAndAddress&amp; instance): int" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Zlj-ud3cJdW0BJ65da6C-51">
-          <mxGeometry y="109.22857142857143" width="430" height="171" as="geometry"/>
+        <mxCell id="Zlj-ud3cJdW0BJ65da6C-54" value="+ Regist(const troute::ServerNameAndAddress&amp; instance,&#xa;              int start_rule, bool check_obj_id = false): int&#xa;# InRegist(const troute::ServerNameAndAddress&amp; instance, &#xa;              int start_rule): int&#xa;&#xa;+ InstanceExist(const troute::ServerNameAndAddress&amp; instance, &#xa;              int* ppid = NULL): int&#xa;+ GetInstancePid(const troute::ServerNameAndAddress&amp; instance, &#xa;              int* ppid): int&#xa;+ CheckRegInsIpPort(const troute::ServerNameAndAddress&amp; instance): bool&#xa;+ FetchGameidAllRoutes(const std::string&amp; gameid, &#xa;              const std::string&amp; password): int&#xa;+ StartupInstanceToNotify(const troute::ServerNameAndAddress&amp; instance): int&#xa;# InstanceAlreadyReg(const troute::ServerNameAndAddress&amp; instance, &#xa;              int* ppid = NULL): int&#xa;# InstancePidCheck(const troute::ServerNameAndAddress&amp; instance): int&#xa;# AddAgentRegFile(const troute::ServerNameAndAddress&amp; instance): int&#xa;# AddPidRegFile(const troute::ServerNameAndAddress&amp; instance): int" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Zlj-ud3cJdW0BJ65da6C-51">
+          <mxGeometry y="109.22857142857143" width="440" height="261" as="geometry"/>
         </mxCell>
         <mxCell id="Zlj-ud3cJdW0BJ65da6C-55" value="baseagent\baseagent_api\instance_resource.h" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1640" y="727" width="250" height="23" as="geometry"/>
+          <mxGeometry x="1820" y="1220" width="250" height="23" as="geometry"/>
+        </mxCell>
+        <mxCell id="Zlj-ud3cJdW0BJ65da6C-56" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;fontColor=#45FFA8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Zlj-ud3cJdW0BJ65da6C-21" target="Zlj-ud3cJdW0BJ65da6C-33">
+          <mxGeometry x="-1" y="-1412" width="160" relative="1" as="geometry">
+            <mxPoint x="1000" y="470" as="sourcePoint"/>
+            <mxPoint x="1080" y="470" as="targetPoint"/>
+            <mxPoint x="-1250" y="-755" as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zlj-ud3cJdW0BJ65da6C-57" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;fontColor=#45FFA8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Zlj-ud3cJdW0BJ65da6C-33" target="juWBPiS8LpCrzN6CJ-U1-4">
+          <mxGeometry x="-1" y="-1412" width="160" relative="1" as="geometry">
+            <mxPoint x="1496" y="489.79999999999995" as="sourcePoint"/>
+            <mxPoint x="1622" y="490.1702531645569" as="targetPoint"/>
+            <mxPoint x="-1250" y="-755" as="offset"/>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
