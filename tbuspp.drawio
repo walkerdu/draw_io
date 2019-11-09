@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2019-11-09T07:25:41.252Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36" etag="ebArBuCBLpuEtg0PDXuZ" version="12.2.2" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-09T07:38:31.768Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36" etag="VsP3cB-7KuU_e2qZ2PAC" version="12.2.2" type="github" pages="1">
   <diagram id="DeTcR2ddXe0aXChrnhDB" name="Page-1">
-    <mxGraphModel dx="3202" dy="1108" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2962" dy="1108" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -8,7 +8,7 @@
           <mxGeometry x="100" y="247" width="370" height="148" as="geometry"/>
         </mxCell>
         <mxCell id="juWBPiS8LpCrzN6CJ-U1-1" value="ServerDepend" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="Zlj-ud3cJdW0BJ65da6C-6" vertex="1">
-          <mxGeometry y="20" width="370" height="128" as="geometry"/>
+          <mxGeometry x="-6" y="20" width="370" height="128" as="geometry"/>
         </mxCell>
         <mxCell id="juWBPiS8LpCrzN6CJ-U1-2" value="# pdata_: std::vector&lt;troute::ServerNameAndAddress*&gt;*" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="juWBPiS8LpCrzN6CJ-U1-1" vertex="1">
           <mxGeometry y="26" width="370" height="24" as="geometry"/>
@@ -21,24 +21,6 @@
         </mxCell>
         <mxCell id="juWBPiS8LpCrzN6CJ-U1-5" value="baseagent\tbuspp_api\tbuspp.h" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Zlj-ud3cJdW0BJ65da6C-6" vertex="1">
           <mxGeometry width="180" height="20" as="geometry"/>
-        </mxCell>
-        <mxCell id="Zlj-ud3cJdW0BJ65da6C-7" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="100" y="480" width="380" height="300" as="geometry"/>
-        </mxCell>
-        <mxCell id="juWBPiS8LpCrzN6CJ-U1-11" value="baseagent\troute\server_name_address.h" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Zlj-ud3cJdW0BJ65da6C-7" vertex="1">
-          <mxGeometry width="230" height="20" as="geometry"/>
-        </mxCell>
-        <mxCell id="juWBPiS8LpCrzN6CJ-U1-16" value="ServerNameAndAddress" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="Zlj-ud3cJdW0BJ65da6C-7" vertex="1">
-          <mxGeometry y="20" width="380" height="280" as="geometry"/>
-        </mxCell>
-        <mxCell id="juWBPiS8LpCrzN6CJ-U1-17" value="# address_[kAdressMaxLength]: char &#xa;# me_version_: unsigned int&#xa;# top_offset_: unsigned int&#xa;# field_offset_[kAddress_root_level * 2+2]: int&#xa;# hash_id_: unsigned int&#xa;# ip_[20]: char&#xa;# port_: unsigned int&#xa;# conn_type_: ConnType&#xa;# protocol_type_: ProtocolType" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;" parent="juWBPiS8LpCrzN6CJ-U1-16" vertex="1">
-          <mxGeometry y="26" width="380" height="134" as="geometry"/>
-        </mxCell>
-        <mxCell id="juWBPiS8LpCrzN6CJ-U1-18" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="juWBPiS8LpCrzN6CJ-U1-16" vertex="1">
-          <mxGeometry y="160" width="380" height="8" as="geometry"/>
-        </mxCell>
-        <mxCell id="juWBPiS8LpCrzN6CJ-U1-19" value="+ AddField(AdressType type, const std::string&amp; name): int &#xa;+ AddAppInstance(unsigned long long instance_id): int&#xa;+ AddBaseAgentIpPort(const std::string&amp; ip, unsigned short port)：int&#xa;+ SetProtocolType(ProtocolType protocl_type): void&#xa;+ SetConnType(ConnType conn_type): void&#xa;# HashServerName(): void&#xa;..." style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="juWBPiS8LpCrzN6CJ-U1-16" vertex="1">
-          <mxGeometry y="168" width="380" height="112" as="geometry"/>
         </mxCell>
         <mxCell id="Zlj-ud3cJdW0BJ65da6C-8" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="-432" y="527" width="430" height="170" as="geometry"/>
@@ -64,10 +46,10 @@
             <mxPoint x="89" y="584" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Zlj-ud3cJdW0BJ65da6C-16" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;fontColor=#45FFA8;" edge="1" parent="1">
+        <mxCell id="Zlj-ud3cJdW0BJ65da6C-16" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;fontColor=#45FFA8;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="juWBPiS8LpCrzN6CJ-U1-16" target="juWBPiS8LpCrzN6CJ-U1-4">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="284" y="495" as="sourcePoint"/>
-            <mxPoint x="284" y="399" as="targetPoint"/>
+            <mxPoint x="420" y="404" as="sourcePoint"/>
+            <mxPoint x="420" y="500" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="Zlj-ud3cJdW0BJ65da6C-17" value="" style="group" vertex="1" connectable="0" parent="1">
@@ -88,26 +70,8 @@
         <mxCell id="Zlj-ud3cJdW0BJ65da6C-22" value="baseagent\tbuspp_api\tbuspp.h" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Zlj-ud3cJdW0BJ65da6C-17">
           <mxGeometry width="180" height="23.07142857142857" as="geometry"/>
         </mxCell>
-        <mxCell id="Zlj-ud3cJdW0BJ65da6C-23" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="615" y="720" width="370" height="453.07142857142856" as="geometry"/>
-        </mxCell>
-        <mxCell id="Zlj-ud3cJdW0BJ65da6C-24" value="InServer" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Zlj-ud3cJdW0BJ65da6C-23">
-          <mxGeometry y="23.07142857142857" width="370" height="570.2285714285714" as="geometry"/>
-        </mxCell>
-        <mxCell id="Zlj-ud3cJdW0BJ65da6C-25" value="# name_: std::string&#xa;# user_data_: std::string &#xa;# puser_server_: Server* &#xa;# pserver_dispatch_: Server* &#xa;# pclient_dispatch_: Server* &#xa;# pmgr_: InServerMgr* &#xa;# pme_:  troute::ServerNameAndAddress* &#xa;# pdepend_: ServerDepend* &#xa;# max_proc_count_:  int&#xa;# tcp_server_port_: unsigned int &#xa;# tcp_clients_: std::map&lt;std::string, InsPtr&gt; &#xa;# pmsg_context_: const MsgContext* " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Zlj-ud3cJdW0BJ65da6C-24">
-          <mxGeometry y="26" width="370" height="174" as="geometry"/>
-        </mxCell>
-        <mxCell id="Zlj-ud3cJdW0BJ65da6C-26" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="Zlj-ud3cJdW0BJ65da6C-24">
-          <mxGeometry y="200" width="370" height="9.228571428571428" as="geometry"/>
-        </mxCell>
-        <mxCell id="Zlj-ud3cJdW0BJ65da6C-27" value="+ InServer(const std::string&amp; name, const std::string&amp; user_data)&#xa;+ ~InServer()&#xa;&#xa;+ SetDepend(ServerDepend* pdepend): int&#xa;+ SetServerMgr(InServerMgr* pmgr): void&#xa;+ MakeIns(): void&#xa;&#xa;+ LogOut(int level, const std::string&amp; loginfo): int&#xa;+ SetProcLimit(int msg_count): void&#xa;+ GetProcLimit(): int&#xa;+ SetTcpServerPort(unsigned int port): bool&#xa;&#xa;+ SetUserServer(Server* pserver): void&#xa;+ SetServerDispatch(Server* pserver): void&#xa;+ SetClientDispatch(Server* pserver): void &#xa;+ EnableNotify(unsigned long long mask): void &#xa;&#xa;+ SetMsgSendUesc(unsigned long long msg_send_uesc): void&#xa;+ SetMsgExpireUsec(unsigned long long expire_usec): void&#xa;+ CreateTcpClientDispatch(): void&#xa;+ SetTcpClientIns(const std::string&amp; name, InsPtr pins): void&#xa;+ SetOption(ServerOption key, void* param): void&#xa;+ SetMsgContext(const MsgContext* pmsg_context): void&#xa;&#xa;+ Update(bool has_event = false): void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Zlj-ud3cJdW0BJ65da6C-24">
-          <mxGeometry y="209.22857142857143" width="370" height="361" as="geometry"/>
-        </mxCell>
-        <mxCell id="Zlj-ud3cJdW0BJ65da6C-28" value="baseagent\tbuspp_api\inserver.h" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Zlj-ud3cJdW0BJ65da6C-23">
-          <mxGeometry width="180" height="23.07142857142857" as="geometry"/>
-        </mxCell>
         <mxCell id="Zlj-ud3cJdW0BJ65da6C-35" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="1060" y="360" width="380" height="149.2285714285714" as="geometry"/>
+          <mxGeometry x="1116" y="360" width="380" height="149.2285714285714" as="geometry"/>
         </mxCell>
         <mxCell id="Zlj-ud3cJdW0BJ65da6C-30" value="ServerMgr" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Zlj-ud3cJdW0BJ65da6C-35">
           <mxGeometry y="23" width="380" height="126.22857142857143" as="geometry"/>
@@ -124,11 +88,8 @@
         <mxCell id="Zlj-ud3cJdW0BJ65da6C-34" value="baseagent\tbuspp_api\tbuspp.h" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Zlj-ud3cJdW0BJ65da6C-35">
           <mxGeometry width="180" height="23.07142857142857" as="geometry"/>
         </mxCell>
-        <mxCell id="Zlj-ud3cJdW0BJ65da6C-36" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="1060" y="720" width="380" height="233" as="geometry"/>
-        </mxCell>
-        <mxCell id="Zlj-ud3cJdW0BJ65da6C-37" value="InServerMgr" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Zlj-ud3cJdW0BJ65da6C-36">
-          <mxGeometry y="23" width="380" height="200.22857142857143" as="geometry"/>
+        <mxCell id="Zlj-ud3cJdW0BJ65da6C-37" value="InServerMgr" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="750" width="380" height="200.22857142857143" as="geometry"/>
         </mxCell>
         <mxCell id="Zlj-ud3cJdW0BJ65da6C-38" value="+ static dispatch_: ServerDispatch &#xa;# shm_epoll_id_: unsigned long long&#xa;# plocal_ins_v_[1024]: const troute::ServerNameAndAddress*&#xa;# pevt_mask_v_[1024]: int&#xa;# server_set_: std::set&lt;Server*&gt; &#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Zlj-ud3cJdW0BJ65da6C-37">
           <mxGeometry y="26" width="380" height="74" as="geometry"/>
@@ -139,8 +100,50 @@
         <mxCell id="Zlj-ud3cJdW0BJ65da6C-40" value="+ AddServer(Server* pServer, ServerDepend* pdepend = NULL): int &#xa;+ DelServer(Server* pServer): int&#xa;+ GetLoopMsgCount(): int&#xa;+ Update(bool has_event = false): void&#xa;+ OnceLoop(unsigned int wait_msec = 10): int&#xa;+ Loop(bool* prun, unsigned int wait_msec = 10): int" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Zlj-ud3cJdW0BJ65da6C-37">
           <mxGeometry y="109.22857142857143" width="380" height="91" as="geometry"/>
         </mxCell>
-        <mxCell id="Zlj-ud3cJdW0BJ65da6C-41" value="baseagent\tbuspp_api\inservermgr.h" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Zlj-ud3cJdW0BJ65da6C-36">
-          <mxGeometry width="210" height="23" as="geometry"/>
+        <mxCell id="Zlj-ud3cJdW0BJ65da6C-41" value="baseagent\tbuspp_api\inservermgr.h" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="727" width="210" height="23" as="geometry"/>
+        </mxCell>
+        <mxCell id="Zlj-ud3cJdW0BJ65da6C-24" value="InServer" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="620" y="767.0714285714286" width="370" height="570.2285714285714" as="geometry"/>
+        </mxCell>
+        <mxCell id="Zlj-ud3cJdW0BJ65da6C-25" value="# name_: std::string&#xa;# user_data_: std::string &#xa;# puser_server_: Server* &#xa;# pserver_dispatch_: Server* &#xa;# pclient_dispatch_: Server* &#xa;# pmgr_: InServerMgr* &#xa;# pme_:  troute::ServerNameAndAddress* &#xa;# pdepend_: ServerDepend* &#xa;# max_proc_count_:  int&#xa;# tcp_server_port_: unsigned int &#xa;# tcp_clients_: std::map&lt;std::string, InsPtr&gt; &#xa;# pmsg_context_: const MsgContext* " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Zlj-ud3cJdW0BJ65da6C-24">
+          <mxGeometry y="26" width="370" height="174" as="geometry"/>
+        </mxCell>
+        <mxCell id="Zlj-ud3cJdW0BJ65da6C-26" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="Zlj-ud3cJdW0BJ65da6C-24">
+          <mxGeometry y="200" width="370" height="9.228571428571428" as="geometry"/>
+        </mxCell>
+        <mxCell id="Zlj-ud3cJdW0BJ65da6C-27" value="+ InServer(const std::string&amp; name, const std::string&amp; user_data)&#xa;+ ~InServer()&#xa;&#xa;+ SetDepend(ServerDepend* pdepend): int&#xa;+ SetServerMgr(InServerMgr* pmgr): void&#xa;+ MakeIns(): void&#xa;&#xa;+ LogOut(int level, const std::string&amp; loginfo): int&#xa;+ SetProcLimit(int msg_count): void&#xa;+ GetProcLimit(): int&#xa;+ SetTcpServerPort(unsigned int port): bool&#xa;&#xa;+ SetUserServer(Server* pserver): void&#xa;+ SetServerDispatch(Server* pserver): void&#xa;+ SetClientDispatch(Server* pserver): void &#xa;+ EnableNotify(unsigned long long mask): void &#xa;&#xa;+ SetMsgSendUesc(unsigned long long msg_send_uesc): void&#xa;+ SetMsgExpireUsec(unsigned long long expire_usec): void&#xa;+ CreateTcpClientDispatch(): void&#xa;+ SetTcpClientIns(const std::string&amp; name, InsPtr pins): void&#xa;+ SetOption(ServerOption key, void* param): void&#xa;+ SetMsgContext(const MsgContext* pmsg_context): void&#xa;&#xa;+ Update(bool has_event = false): void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Zlj-ud3cJdW0BJ65da6C-24">
+          <mxGeometry y="209.22857142857143" width="370" height="361" as="geometry"/>
+        </mxCell>
+        <mxCell id="Zlj-ud3cJdW0BJ65da6C-28" value="baseagent\tbuspp_api\inserver.h" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="740" width="180" height="23.07142857142857" as="geometry"/>
+        </mxCell>
+        <mxCell id="juWBPiS8LpCrzN6CJ-U1-11" value="baseagent\troute\server_name_address.h" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="100" y="480" width="230" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="juWBPiS8LpCrzN6CJ-U1-16" value="ServerNameAndAddress" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="89" y="500" width="380" height="280" as="geometry"/>
+        </mxCell>
+        <mxCell id="juWBPiS8LpCrzN6CJ-U1-17" value="# address_[kAdressMaxLength]: char &#xa;# me_version_: unsigned int&#xa;# top_offset_: unsigned int&#xa;# field_offset_[kAddress_root_level * 2+2]: int&#xa;# hash_id_: unsigned int&#xa;# ip_[20]: char&#xa;# port_: unsigned int&#xa;# conn_type_: ConnType&#xa;# protocol_type_: ProtocolType" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;" parent="juWBPiS8LpCrzN6CJ-U1-16" vertex="1">
+          <mxGeometry y="26" width="380" height="134" as="geometry"/>
+        </mxCell>
+        <mxCell id="juWBPiS8LpCrzN6CJ-U1-18" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="juWBPiS8LpCrzN6CJ-U1-16" vertex="1">
+          <mxGeometry y="160" width="380" height="8" as="geometry"/>
+        </mxCell>
+        <mxCell id="juWBPiS8LpCrzN6CJ-U1-19" value="+ AddField(AdressType type, const std::string&amp; name): int &#xa;+ AddAppInstance(unsigned long long instance_id): int&#xa;+ AddBaseAgentIpPort(const std::string&amp; ip, unsigned short port)：int&#xa;+ SetProtocolType(ProtocolType protocl_type): void&#xa;+ SetConnType(ConnType conn_type): void&#xa;# HashServerName(): void&#xa;..." style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="juWBPiS8LpCrzN6CJ-U1-16" vertex="1">
+          <mxGeometry y="168" width="380" height="112" as="geometry"/>
+        </mxCell>
+        <mxCell id="Zlj-ud3cJdW0BJ65da6C-44" value="" style="endArrow=open;endFill=1;endSize=12;html=1;fontColor=#45FFA8;exitX=0.5;exitY=1.01;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Zlj-ud3cJdW0BJ65da6C-21" target="Zlj-ud3cJdW0BJ65da6C-24">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="840" y="680" as="sourcePoint"/>
+            <mxPoint x="1000" y="680" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zlj-ud3cJdW0BJ65da6C-45" value="" style="endArrow=open;endFill=1;endSize=12;html=1;fontColor=#45FFA8;exitX=0.485;exitY=1.041;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Zlj-ud3cJdW0BJ65da6C-33" target="Zlj-ud3cJdW0BJ65da6C-37">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1308" y="512" as="sourcePoint"/>
+            <mxPoint x="1307.5" y="659.5714285714284" as="targetPoint"/>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
