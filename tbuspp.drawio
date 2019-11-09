@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-09T06:47:47.161Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36" etag="BAECuFUsQ_MOC4JHFNIm" version="12.2.2" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-09T06:53:07.976Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36" etag="EKbkqls0LLgwPAHDBWOP" version="12.2.2" type="github" pages="1">
   <diagram id="DeTcR2ddXe0aXChrnhDB" name="Page-1">
     <mxGraphModel dx="1914" dy="501" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -125,19 +125,19 @@
           <mxGeometry width="180" height="23.07142857142857" as="geometry"/>
         </mxCell>
         <mxCell id="Zlj-ud3cJdW0BJ65da6C-36" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="1090" y="720" width="380" height="149.2285714285714" as="geometry"/>
+          <mxGeometry x="1060" y="720" width="380" height="233" as="geometry"/>
         </mxCell>
         <mxCell id="Zlj-ud3cJdW0BJ65da6C-37" value="InServerMgr" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Zlj-ud3cJdW0BJ65da6C-36">
-          <mxGeometry y="23" width="380" height="126.22857142857143" as="geometry"/>
+          <mxGeometry y="23" width="380" height="200.22857142857143" as="geometry"/>
         </mxCell>
-        <mxCell id="Zlj-ud3cJdW0BJ65da6C-38" value="# static dispatch_: ServerDispatch " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Zlj-ud3cJdW0BJ65da6C-37">
-          <mxGeometry y="26" width="380" height="24" as="geometry"/>
+        <mxCell id="Zlj-ud3cJdW0BJ65da6C-38" value="+ static dispatch_: ServerDispatch &#xa;# shm_epoll_id_: unsigned long long&#xa;# plocal_ins_v_[1024]: const troute::ServerNameAndAddress*&#xa;# pevt_mask_v_[1024]: int&#xa;# server_set_: std::set&lt;Server*&gt; &#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Zlj-ud3cJdW0BJ65da6C-37">
+          <mxGeometry y="26" width="380" height="74" as="geometry"/>
         </mxCell>
         <mxCell id="Zlj-ud3cJdW0BJ65da6C-39" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="Zlj-ud3cJdW0BJ65da6C-37">
-          <mxGeometry y="50" width="380" height="9.228571428571428" as="geometry"/>
+          <mxGeometry y="100" width="380" height="9.228571428571428" as="geometry"/>
         </mxCell>
-        <mxCell id="Zlj-ud3cJdW0BJ65da6C-40" value="+ AddServer(Server* pServer, ServerDepend* pdepend = NULL): int &#xa;+ DelServer(Server* pServer): int&#xa;+ OnceLoop(unsigned int wait_msec = 2): int&#xa;+ Loop(bool* prun, unsigned int wait_msec = 2): int" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Zlj-ud3cJdW0BJ65da6C-37">
-          <mxGeometry y="59.22857142857143" width="380" height="67" as="geometry"/>
+        <mxCell id="Zlj-ud3cJdW0BJ65da6C-40" value="+ AddServer(Server* pServer, ServerDepend* pdepend = NULL): int &#xa;+ DelServer(Server* pServer): int&#xa;+ GetLoopMsgCount(): int&#xa;+ Update(bool has_event = false): void&#xa;+ OnceLoop(unsigned int wait_msec = 10): int&#xa;+ Loop(bool* prun, unsigned int wait_msec = 10): int" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Zlj-ud3cJdW0BJ65da6C-37">
+          <mxGeometry y="109.22857142857143" width="380" height="91" as="geometry"/>
         </mxCell>
         <mxCell id="Zlj-ud3cJdW0BJ65da6C-41" value="baseagent\tbuspp_api\inservermgr.h" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Zlj-ud3cJdW0BJ65da6C-36">
           <mxGeometry width="210" height="23" as="geometry"/>
