@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-09T07:59:23.730Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36" etag="E6HBRkP4BYA2jwAXBP7u" version="12.2.2" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-09T10:09:21.556Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36" etag="n6fp3eNn01bosLXlut09" version="12.2.2" type="github" pages="1">
   <diagram id="DeTcR2ddXe0aXChrnhDB" name="Page-1">
     <mxGraphModel dx="2015" dy="501" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -53,10 +53,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Zlj-ud3cJdW0BJ65da6C-17" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="620" y="267" width="370" height="363.07142857142856" as="geometry"/>
+          <mxGeometry x="620" y="267" width="370" height="373.07142857142856" as="geometry"/>
         </mxCell>
         <mxCell id="Zlj-ud3cJdW0BJ65da6C-18" value="Server" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Zlj-ud3cJdW0BJ65da6C-17">
-          <mxGeometry y="23.07142857142857" width="370" height="326.2285714285714" as="geometry"/>
+          <mxGeometry y="23.07142857142857" width="370" height="350.2285714285714" as="geometry"/>
         </mxCell>
         <mxCell id="Zlj-ud3cJdW0BJ65da6C-19" value="# pdata_: InServer*" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Zlj-ud3cJdW0BJ65da6C-18">
           <mxGeometry y="26" width="370" height="24" as="geometry"/>
@@ -64,8 +64,8 @@
         <mxCell id="Zlj-ud3cJdW0BJ65da6C-20" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="Zlj-ud3cJdW0BJ65da6C-18">
           <mxGeometry y="50" width="370" height="9.228571428571428" as="geometry"/>
         </mxCell>
-        <mxCell id="Zlj-ud3cJdW0BJ65da6C-21" value="+ Process(InsPtr premote, int cmd, const char* pmsg, int msg_len,&#xa;                 unsigned long long seq, unsigned long long rsp_seq): int &#xa;+ HandleNotify(int cmd, InsPtr local,InsPtr remote,&#xa;                 int code, const std::string* pext): int&#xa;+ HandleEvent(int type, int category, int evt_id,&#xa;                 InsPtr local, InsPtr remote, InsPtr evt_ins,&#xa;                 const char* pevt_desc, const char* pext, int ext_len): int&#xa;+ HandleInput(InsPtr premote, int cmd, &#xa;                 const char* pmsg, int* pmsg_len,&#xa;                 unsigned long long seq, unsigned long long rsp_seq, &#xa;                 int* pcmd): int&#xa;+ LogOut(int level, const std::string&amp; loginfo): int&#xa;+ OnUpdate(bool has_event): int&#xa;+ EnableNotify(unsigned long long mask): void&#xa;+ SetProcLimit(int msg_count): void&#xa;+ SetMsgExpireUsec(unsigned long long expire_usec): void&#xa;+ SetTcpServerPort(unsigned int port): bool&#xa;+ SetOption(ServerOption key, void* param): int" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Zlj-ud3cJdW0BJ65da6C-18">
-          <mxGeometry y="59.22857142857143" width="370" height="267" as="geometry"/>
+        <mxCell id="Zlj-ud3cJdW0BJ65da6C-21" value="+ Server(const std::string&amp; name, const std::string&amp; user_data);&#xa;+ Process(InsPtr premote, int cmd, const char* pmsg, int msg_len,&#xa;                 unsigned long long seq, unsigned long long rsp_seq): int &#xa;+ HandleNotify(int cmd, InsPtr local,InsPtr remote,&#xa;                 int code, const std::string* pext): int&#xa;+ HandleEvent(int type, int category, int evt_id,&#xa;                 InsPtr local, InsPtr remote, InsPtr evt_ins,&#xa;                 const char* pevt_desc, const char* pext, int ext_len): int&#xa;+ HandleInput(InsPtr premote, int cmd, &#xa;                 const char* pmsg, int* pmsg_len,&#xa;                 unsigned long long seq, unsigned long long rsp_seq, &#xa;                 int* pcmd): int&#xa;+ LogOut(int level, const std::string&amp; loginfo): int&#xa;+ OnUpdate(bool has_event): int&#xa;&#xa;+ EnableNotify(unsigned long long mask): void&#xa;+ SetProcLimit(int msg_count): void&#xa;+ SetMsgExpireUsec(unsigned long long expire_usec): void&#xa;+ SetTcpServerPort(unsigned int port): bool&#xa;+ SetOption(ServerOption key, void* param): int" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Zlj-ud3cJdW0BJ65da6C-18">
+          <mxGeometry y="59.22857142857143" width="370" height="291" as="geometry"/>
         </mxCell>
         <mxCell id="Zlj-ud3cJdW0BJ65da6C-22" value="baseagent\tbuspp_api\tbuspp.h" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Zlj-ud3cJdW0BJ65da6C-17">
           <mxGeometry width="180" height="23.07142857142857" as="geometry"/>
@@ -146,7 +146,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Zlj-ud3cJdW0BJ65da6C-46" value="EventHandleOpt" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="1115" y="1043" width="380" height="150.22857142857143" as="geometry"/>
+          <mxGeometry x="1115" y="1043" width="380" height="170.22857142857143" as="geometry"/>
         </mxCell>
         <mxCell id="Zlj-ud3cJdW0BJ65da6C-47" value="# debug_: std::string" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Zlj-ud3cJdW0BJ65da6C-46">
           <mxGeometry y="26" width="380" height="24" as="geometry"/>
@@ -154,11 +154,26 @@
         <mxCell id="Zlj-ud3cJdW0BJ65da6C-48" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="Zlj-ud3cJdW0BJ65da6C-46">
           <mxGeometry y="50" width="380" height="9.228571428571428" as="geometry"/>
         </mxCell>
-        <mxCell id="Zlj-ud3cJdW0BJ65da6C-49" value="+ AddServer(Server* pServer, ServerDepend* pdepend = NULL): int &#xa;+ DelServer(Server* pServer): int&#xa;+ GetLoopMsgCount(): int&#xa;+ Update(bool has_event = false): void&#xa;+ OnceLoop(unsigned int wait_msec = 10): int&#xa;+ Loop(bool* prun, unsigned int wait_msec = 10): int" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Zlj-ud3cJdW0BJ65da6C-46">
-          <mxGeometry y="59.22857142857143" width="380" height="91" as="geometry"/>
+        <mxCell id="Zlj-ud3cJdW0BJ65da6C-49" value="+ Create(unsigned long long *phandle): int &#xa;+ Close(unsigned long long handle): int&#xa;+ PidExit(int pid): void&#xa;&#xa;# InClose(int pid, unsigned long long handle): int&#xa;# AddHandleToFile(int pid, unsigned long long handle): int&#xa;# ClearHandleFromFile(int pid, unsigned long long handle): int" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Zlj-ud3cJdW0BJ65da6C-46">
+          <mxGeometry y="59.22857142857143" width="380" height="111" as="geometry"/>
         </mxCell>
         <mxCell id="Zlj-ud3cJdW0BJ65da6C-50" value="baseagent\baseagent_api\instance_resource.h" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1105" y="1020" width="265" height="23" as="geometry"/>
+        </mxCell>
+        <mxCell id="Zlj-ud3cJdW0BJ65da6C-51" value="InstanceReg" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="750" width="430" height="280.2285714285714" as="geometry"/>
+        </mxCell>
+        <mxCell id="Zlj-ud3cJdW0BJ65da6C-52" value="+ static dispatch_: ServerDispatch &#xa;# shm_epoll_id_: unsigned long long&#xa;# plocal_ins_v_[1024]: const troute::ServerNameAndAddress*&#xa;# pevt_mask_v_[1024]: int&#xa;# server_set_: std::set&lt;Server*&gt; &#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Zlj-ud3cJdW0BJ65da6C-51">
+          <mxGeometry y="26" width="430" height="74" as="geometry"/>
+        </mxCell>
+        <mxCell id="Zlj-ud3cJdW0BJ65da6C-53" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="Zlj-ud3cJdW0BJ65da6C-51">
+          <mxGeometry y="100" width="430" height="9.228571428571428" as="geometry"/>
+        </mxCell>
+        <mxCell id="Zlj-ud3cJdW0BJ65da6C-54" value="+ Regist(const troute::ServerNameAndAddress&amp; instance,&#xa;              int start_rule, bool check_obj_id = false): int &#xa;+ InstanceExist(const troute::ServerNameAndAddress&amp; instance, &#xa;              int* ppid = NULL): int&#xa;+ GetInstancePid(const troute::ServerNameAndAddress&amp; instance, &#xa;              int* ppid): int&#xa;+ CheckRegInsIpPort(const troute::ServerNameAndAddress&amp; instance): bool&#xa;+ FetchGameidAllRoutes(const std::string&amp; gameid, &#xa;              const std::string&amp; password): int&#xa;+ StartupInstanceToNotify(const troute::ServerNameAndAddress&amp; instance): int" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Zlj-ud3cJdW0BJ65da6C-51">
+          <mxGeometry y="109.22857142857143" width="430" height="171" as="geometry"/>
+        </mxCell>
+        <mxCell id="Zlj-ud3cJdW0BJ65da6C-55" value="baseagent\baseagent_api\instance_resource.h" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="727" width="250" height="23" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
