@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-23T08:10:37.828Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36" etag="EeOVBblevigSkEuCJPul" version="12.4.2" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-12-23T08:17:45.188Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36" etag="qEr0cQ5eioMwP_klsVk5" version="12.4.2" type="github" pages="1">
   <diagram id="OrQfkeeHgUfaRMaOiego" name="Page-1">
     <mxGraphModel dx="2875" dy="1108" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -223,9 +223,6 @@
         <mxCell id="GP28-JtXtmgrlyzx3dhS-68" value="&lt;font color=&quot;#000000&quot; style=&quot;background-color: rgb(248 , 206 , 204)&quot;&gt;K2&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;shadow=0;labelBackgroundColor=#FF0000;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
           <mxGeometry x="205" y="1280" width="30" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="GP28-JtXtmgrlyzx3dhS-69" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;fontColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="-496" y="732" width="40" height="20" as="geometry"/>
-        </mxCell>
         <mxCell id="GP28-JtXtmgrlyzx3dhS-70" value="" style="endArrow=classic;html=1;fontColor=#FF0000;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="GP28-JtXtmgrlyzx3dhS-67" target="GP28-JtXtmgrlyzx3dhS-58">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="179" y="1140" as="sourcePoint"/>
@@ -302,12 +299,6 @@
             <mxPoint x="440" y="1260" as="sourcePoint"/>
             <mxPoint x="490" y="1210" as="targetPoint"/>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="GP28-JtXtmgrlyzx3dhS-87" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/freecns-cumulus/16/519642-143_Attention-128.png;shadow=0;strokeColor=#000000;fillColor=#808080;gradientColor=none;fontColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="-456" y="890" width="30" height="30" as="geometry"/>
-        </mxCell>
-        <mxCell id="GP28-JtXtmgrlyzx3dhS-88" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/small-n-flat/24/678069-sign-error-128.png;shadow=0;strokeColor=#000000;fillColor=#808080;gradientColor=none;fontColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="-404" y="885" width="40" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="GP28-JtXtmgrlyzx3dhS-94" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/letters-and-numbers-1/32/lowercase_letter_x_red-128.png;shadow=0;strokeColor=#000000;fillColor=#808080;gradientColor=none;fontColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="485" y="1330" width="45" height="45" as="geometry"/>
