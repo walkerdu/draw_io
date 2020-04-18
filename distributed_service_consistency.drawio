@@ -1,20 +1,23 @@
-<mxfile host="app.diagrams.net" modified="2020-04-18T03:32:16.411Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="stMkpi9eVvD8JlRUBvZ2" version="12.9.10" type="github">
+<mxfile host="app.diagrams.net" modified="2020-04-18T03:39:38.903Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="CcVMKJNXaapjC8Vo-Kf-" version="12.9.10" type="github">
   <diagram id="ItVh4f0J61LWQM_6799-" name="Page-1">
     <mxGraphModel dx="632" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="soa0CNPoC3bioCPJzMiO-1" value="&lt;strong style=&quot;box-sizing: border-box ; font-family: &amp;#34;open sans&amp;#34; , &amp;#34;clear sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 16px&quot;&gt;&lt;span class=&quot;md-plain&quot; style=&quot;box-sizing: border-box&quot;&gt;Coordinator&lt;/span&gt;&lt;/strong&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="30" y="210" width="130" height="300" as="geometry" />
+          <mxGeometry x="30" y="210" width="130" height="430" as="geometry" />
         </mxCell>
         <mxCell id="soa0CNPoC3bioCPJzMiO-7" value="&lt;strong style=&quot;box-sizing: border-box ; font-family: &amp;#34;open sans&amp;#34; , &amp;#34;clear sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 16px ; text-align: left&quot;&gt;&lt;span class=&quot;md-plain&quot; style=&quot;box-sizing: border-box&quot;&gt;Participant1&lt;/span&gt;&lt;/strong&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="270" y="210" width="130" height="300" as="geometry" />
+          <mxGeometry x="270" y="210" width="130" height="430" as="geometry" />
         </mxCell>
         <mxCell id="soa0CNPoC3bioCPJzMiO-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="soa0CNPoC3bioCPJzMiO-7">
           <mxGeometry x="60" y="90" width="10" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="soa0CNPoC3bioCPJzMiO-18" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="soa0CNPoC3bioCPJzMiO-7">
+          <mxGeometry x="60" y="300" width="10" height="50" as="geometry" />
+        </mxCell>
         <mxCell id="soa0CNPoC3bioCPJzMiO-8" value="&lt;strong style=&quot;box-sizing: border-box ; font-family: &amp;#34;open sans&amp;#34; , &amp;#34;clear sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 16px ; text-align: left&quot;&gt;&lt;span class=&quot;md-plain&quot; style=&quot;box-sizing: border-box&quot;&gt;Participant2&lt;/span&gt;&lt;/strong&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="510" y="210" width="130" height="300" as="geometry" />
+          <mxGeometry x="510" y="210" width="130" height="430" as="geometry" />
         </mxCell>
         <mxCell id="soa0CNPoC3bioCPJzMiO-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="soa0CNPoC3bioCPJzMiO-8">
           <mxGeometry x="60" y="180" width="10" height="50" as="geometry" />
@@ -29,7 +32,7 @@
             <mxPoint x="240" y="376" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="soa0CNPoC3bioCPJzMiO-12" value="写redo、undo日志、锁定资源、执行操作，不提交" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="soa0CNPoC3bioCPJzMiO-12" value="写redo、undo日志、锁定资源、执行操作、不提交" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="340" y="310" width="160" height="20" as="geometry" />
         </mxCell>
         <mxCell id="soa0CNPoC3bioCPJzMiO-14" value="准备" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="soa0CNPoC3bioCPJzMiO-13" parent="1" source="soa0CNPoC3bioCPJzMiO-1">
@@ -44,6 +47,19 @@
         </mxCell>
         <mxCell id="soa0CNPoC3bioCPJzMiO-16" value="写redo、undo日志、锁定资源、执行操作，不提交" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="590" y="400" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="soa0CNPoC3bioCPJzMiO-19" value="提交" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="soa0CNPoC3bioCPJzMiO-18" parent="1" source="soa0CNPoC3bioCPJzMiO-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="505" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="soa0CNPoC3bioCPJzMiO-20" value="提交成功" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="soa0CNPoC3bioCPJzMiO-18" parent="1" target="soa0CNPoC3bioCPJzMiO-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="581" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="soa0CNPoC3bioCPJzMiO-21" value="提交操作、释放资源" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="342" y="523" width="120" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
