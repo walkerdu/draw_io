@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-04-21T02:57:00.983Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="UoNoqmyxyf0YsdCPFmaz" version="12.9.14" type="github">
+<mxfile host="app.diagrams.net" modified="2020-04-21T03:44:40.033Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="B1pkEfNjIxUJr_hce-LB" version="12.9.14" type="github">
   <diagram id="ItVh4f0J61LWQM_6799-" name="Page-1">
-    <mxGraphModel dx="1422" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -174,7 +174,7 @@
         <mxCell id="19Rnll7qSKjT185mRO9F-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="19Rnll7qSKjT185mRO9F-5">
           <mxGeometry x="60" y="380" width="10" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="19Rnll7qSKjT185mRO9F-8" value="Prepare" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" parent="1" source="19Rnll7qSKjT185mRO9F-1" target="19Rnll7qSKjT185mRO9F-3">
+        <mxCell id="19Rnll7qSKjT185mRO9F-8" value="Commit Request" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" parent="1" source="19Rnll7qSKjT185mRO9F-1" target="19Rnll7qSKjT185mRO9F-3">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="252" y="1010" as="sourcePoint" />
           </mxGeometry>
@@ -187,7 +187,7 @@
         <mxCell id="19Rnll7qSKjT185mRO9F-10" value="提交检查，超时中止" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="352" y="1020" width="118" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="19Rnll7qSKjT185mRO9F-11" value="Prepare" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" parent="1" source="19Rnll7qSKjT185mRO9F-1" target="19Rnll7qSKjT185mRO9F-6">
+        <mxCell id="19Rnll7qSKjT185mRO9F-11" value="Commit Request" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" parent="1" source="19Rnll7qSKjT185mRO9F-1" target="19Rnll7qSKjT185mRO9F-6">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="512" y="1090" as="sourcePoint" />
           </mxGeometry>
@@ -197,7 +197,7 @@
             <mxPoint x="512" y="1166" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="19Rnll7qSKjT185mRO9F-14" value="Pre-Commit" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" parent="1" target="19Rnll7qSKjT185mRO9F-4">
+        <mxCell id="19Rnll7qSKjT185mRO9F-14" value="Prepare-to-Commit" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" parent="1" target="19Rnll7qSKjT185mRO9F-4">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="106.81034482758605" y="1209.9999999999998" as="sourcePoint" />
           </mxGeometry>
@@ -207,7 +207,7 @@
             <mxPoint x="106.81034482758605" y="1257.4999999999998" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="19Rnll7qSKjT185mRO9F-17" value="Pre-Commit" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" parent="1" target="19Rnll7qSKjT185mRO9F-7">
+        <mxCell id="19Rnll7qSKjT185mRO9F-17" value="Prepare-to-Commit" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" parent="1" target="19Rnll7qSKjT185mRO9F-7">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="106.5" y="1300" as="sourcePoint" />
           </mxGeometry>
