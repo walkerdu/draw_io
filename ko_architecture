@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-01T09:53:37.585Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="OQRl7Ayxc4Mr_kPfUoqq" version="13.5.7" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-01T10:16:13.750Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="Idz1DRuUgOHhbJY7uceH" version="13.5.7" type="github">
   <diagram id="SkZA7YbeRFNr9GJFuxhq" name="Page-1">
     <mxGraphModel dx="2889" dy="1122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -243,6 +243,9 @@
         </mxCell>
         <mxCell id="1UtI3cf7cX2ek66tQ3T4-128" value="" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.radioButton2;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;gradientColor=#DEDEDE;fillColor=#EDEDED;checked=0;spacing=5;checkedFill=#0085FC;checkedStroke=#ffffff;rounded=0;strokeColor=#c0c0c0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="110" y="570" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="1UtI3cf7cX2ek66tQ3T4-160" value="&lt;span&gt;添加：加权负载&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=14;fontStyle=1;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="760" width="120" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
