@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-17T16:13:29.687Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="8NuCHLyZnXEWBH_eIzm9" version="12.9.14" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-17T16:15:17.024Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="p52ZJ9FPFC0LqOtIajHp" version="12.9.14" type="github">
   <diagram id="SkZA7YbeRFNr9GJFuxhq" name="Page-1">
     <mxGraphModel dx="3080" dy="677" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -741,6 +741,24 @@
         </mxCell>
         <mxCell id="mCPFevJcRxMg_p_c8wTz-163" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width: 100% ; height: 100% ; border-collapse: collapse&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;background-color: #a7c942 ; color: #ffffff ; border: 1px solid #98bf21&quot;&gt;&lt;th align=&quot;left&quot;&gt;server&lt;/th&gt;&lt;th align=&quot;left&quot;&gt;bus addr&lt;/th&gt;&lt;/tr&gt;&lt;tr style=&quot;border: 1px solid #98bf21&quot;&gt;&lt;td&gt;infosvr1&lt;/td&gt;&lt;td&gt;12.1.1.1&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;background-color: #eaf2d3 ; border: 1px solid #98bf21&quot;&gt;&lt;td&gt;infosvr2&lt;/td&gt;&lt;td&gt;12.1.1.2&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;border: 1px solid #98bf21&quot;&gt;&lt;td&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;strike&gt;infosvr3&lt;/strike&gt;&lt;/font&gt;&lt;/td&gt;&lt;td&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;strike&gt;12.1.1.3&lt;/strike&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=#c0c0c0;fillColor=#ffffff;overflow=fill;rounded=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-348" y="2823" width="126" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="mCPFevJcRxMg_p_c8wTz-164" value="router" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;align=center;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-1371" y="3284" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mCPFevJcRxMg_p_c8wTz-165" value="Coordinator" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;align=center;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-1367.5" y="3090" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mCPFevJcRxMg_p_c8wTz-166" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width: 100% ; height: 100% ; border-collapse: collapse&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;background-color: #a7c942 ; color: #ffffff ; border: 1px solid #98bf21&quot;&gt;&lt;th align=&quot;left&quot;&gt;server&lt;/th&gt;&lt;th align=&quot;left&quot;&gt;bus addr&lt;/th&gt;&lt;/tr&gt;&lt;tr style=&quot;border: 1px solid #98bf21&quot;&gt;&lt;td&gt;infosvr1&lt;/td&gt;&lt;td&gt;12.1.1.1&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;background-color: #eaf2d3 ; border: 1px solid #98bf21&quot;&gt;&lt;td&gt;infosvr2&lt;/td&gt;&lt;td&gt;12.1.1.2&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;border: 1px solid #98bf21&quot;&gt;&lt;td&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;strike&gt;infosvr3&lt;/strike&gt;&lt;/font&gt;&lt;/td&gt;&lt;td&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;strike&gt;12.1.1.3&lt;/strike&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=#c0c0c0;fillColor=#ffffff;overflow=fill;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-1245.5" y="3065" width="126" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="mCPFevJcRxMg_p_c8wTz-167" value="" style="endArrow=classic;html=1;strokeColor=#000000;fontColor=#FF0000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="mCPFevJcRxMg_p_c8wTz-165" target="mCPFevJcRxMg_p_c8wTz-164" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1227.5" y="3258" as="sourcePoint" />
+            <mxPoint x="-1177.5" y="3208" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mCPFevJcRxMg_p_c8wTz-169" value="&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;启动时从Coordinator拉去最新的路由信息&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="-1290" y="3218" width="284" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
