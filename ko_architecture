@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-24T06:07:25.229Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="AL6rKZip9q8bUWeWlD3V" version="13.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-24T06:15:28.848Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="D47Uuf03UOYIQXxPSc6J" version="13.6.2" type="github">
   <diagram id="SkZA7YbeRFNr9GJFuxhq" name="Page-1">
     <mxGraphModel dx="7388" dy="1289" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1713,7 +1713,7 @@
         <mxCell id="rw5Lsq1zcSmXxzZfbOOx-349" value="&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;Watch&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-2099" y="3485" width="71.5" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="rw5Lsq1zcSmXxzZfbOOx-350" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;exitX=0.55;exitY=0.95;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=classic;startFill=1;strokeColor=#FF0000;" edge="1" parent="1" source="rw5Lsq1zcSmXxzZfbOOx-348" target="rw5Lsq1zcSmXxzZfbOOx-347">
+        <mxCell id="rw5Lsq1zcSmXxzZfbOOx-350" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;exitX=0.55;exitY=0.95;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="rw5Lsq1zcSmXxzZfbOOx-348" target="rw5Lsq1zcSmXxzZfbOOx-347">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-2198.5" y="3496" as="sourcePoint" />
             <mxPoint x="-2203.5" y="3533" as="targetPoint" />
@@ -1740,11 +1740,8 @@
             <mxPoint x="-1940" y="3705" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rw5Lsq1zcSmXxzZfbOOx-356" value="&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;备机切换前，进行最后确认&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-2104" y="3559" width="88" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="rw5Lsq1zcSmXxzZfbOOx-357" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.tick;fontColor=#FF0000;fillColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="-2161.75" y="3479.5" width="25" height="31" as="geometry" />
+        <mxCell id="rw5Lsq1zcSmXxzZfbOOx-356" value="&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;初始化时，协商busid最小的为主&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-2126" y="3559" width="126" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
