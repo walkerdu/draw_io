@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-24T06:16:04.164Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="iuIiuu_kX4-9mGAmxFDU" version="13.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-24T06:20:11.458Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="MtKq6S2AuQqEiwrBbjia" version="13.6.2" type="github">
   <diagram id="SkZA7YbeRFNr9GJFuxhq" name="Page-1">
     <mxGraphModel dx="7388" dy="1289" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1647,7 +1647,7 @@
         <mxCell id="rw5Lsq1zcSmXxzZfbOOx-330" value="&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;主&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-2193.75" y="3986" width="71.5" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="rw5Lsq1zcSmXxzZfbOOx-331" value="&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;备&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="rw5Lsq1zcSmXxzZfbOOx-331" value="&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;&lt;strike&gt;&amp;nbsp;备&amp;nbsp;&lt;/strike&gt;&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1919" y="3988" width="71.5" height="20" as="geometry" />
         </mxCell>
         <mxCell id="rw5Lsq1zcSmXxzZfbOOx-332" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.x;fillColor=#FF0000;fontStyle=1" vertex="1" parent="1">
@@ -1742,6 +1742,9 @@
         </mxCell>
         <mxCell id="rw5Lsq1zcSmXxzZfbOOx-356" value="&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;初始化时，协商busid最小的为主&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-2126" y="3559" width="126" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rw5Lsq1zcSmXxzZfbOOx-360" value="&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;主&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="-1919" y="4011" width="71.5" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
