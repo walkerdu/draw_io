@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2020-08-31T08:01:17.177Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="kRgzpwmKcz5CkZd7XPmZ" version="13.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-31T08:38:57.989Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="KNaHtHoKydNHdM7O0-qH" version="13.6.5" type="github">
   <diagram id="SkZA7YbeRFNr9GJFuxhq" name="Page-1">
     <mxGraphModel dx="7024" dy="1096" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="rw5Lsq1zcSmXxzZfbOOx-272" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#54D154;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-2934" y="3865" width="482" height="221" as="geometry" />
+          <mxGeometry x="-2934" y="3865" width="541" height="221" as="geometry" />
         </mxCell>
         <mxCell id="AVUgIYQoXHWyGgFTJyDg-24" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width: 100% ; height: 100% ; border-collapse: collapse&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;background-color: #a7c942 ; color: #ffffff ; border: 1px solid #98bf21&quot;&gt;&lt;th align=&quot;left&quot;&gt;server&lt;/th&gt;&lt;th align=&quot;left&quot;&gt;bus addr&lt;/th&gt;&lt;/tr&gt;&lt;tr style=&quot;border: 1px solid #98bf21&quot;&gt;&lt;td&gt;infosvr1&lt;/td&gt;&lt;td&gt;12.1.1.1&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;background-color: #eaf2d3 ; border: 1px solid #98bf21&quot;&gt;&lt;td&gt;infosvr2&lt;/td&gt;&lt;td&gt;12.1.1.2&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;border: 1px solid #98bf21&quot;&gt;&lt;td&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;strike&gt;infosvr3&lt;/strike&gt;&lt;/font&gt;&lt;/td&gt;&lt;td&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;strike&gt;12.1.1.3&lt;/strike&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=#c0c0c0;fillColor=#ffffff;overflow=fill;rounded=0;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="-1223" y="3277" width="126" height="100" as="geometry" />
@@ -1517,7 +1517,7 @@
             <mxPoint x="-2988" y="4073" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rw5Lsq1zcSmXxzZfbOOx-304" value="" style="endArrow=classic;html=1;strokeColor=#000000;fontColor=#FF0000;exitX=0.5;exitY=0;exitDx=0;exitDy=0;dashed=1;entryX=0.601;entryY=1.007;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="rw5Lsq1zcSmXxzZfbOOx-279" target="rw5Lsq1zcSmXxzZfbOOx-272" edge="1">
+        <mxCell id="rw5Lsq1zcSmXxzZfbOOx-304" value="" style="endArrow=classic;html=1;strokeColor=#000000;fontColor=#FF0000;exitX=0.5;exitY=0;exitDx=0;exitDy=0;dashed=1;entryX=0.536;entryY=1.018;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="rw5Lsq1zcSmXxzZfbOOx-279" target="rw5Lsq1zcSmXxzZfbOOx-272" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-2533" y="4270" as="sourcePoint" />
             <mxPoint x="-2644" y="4144" as="targetPoint" />
@@ -1590,10 +1590,10 @@
         <mxCell id="rw5Lsq1zcSmXxzZfbOOx-275" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;...&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-2805" y="3904" width="35" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="rw5Lsq1zcSmXxzZfbOOx-319" value="" style="endArrow=classic;html=1;strokeColor=#000000;fontColor=#FF0000;exitX=0.815;exitY=-0.053;exitDx=0;exitDy=0;entryX=0.061;entryY=1.001;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;dashed=1;" parent="1" target="rw5Lsq1zcSmXxzZfbOOx-272" edge="1">
+        <mxCell id="rw5Lsq1zcSmXxzZfbOOx-319" value="" style="endArrow=classic;html=1;strokeColor=#000000;fontColor=#FF0000;exitX=0.815;exitY=-0.053;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-2906.2" y="4133.35" as="sourcePoint" />
-            <mxPoint x="-2909.066" y="4086" as="targetPoint" />
+            <mxPoint x="-2906" y="4086" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rw5Lsq1zcSmXxzZfbOOx-322" value="&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b style=&quot;font-size: 16px&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;TCC事务管理器&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" parent="1" vertex="1">
@@ -1860,6 +1860,20 @@
         </mxCell>
         <mxCell id="iuYlN9FxCsR312C4Vgvb-2" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width: 100% ; height: 100% ; border-collapse: collapse&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;background-color: #a7c942 ; color: #ffffff ; border: 1px solid #98bf21&quot;&gt;&lt;th&gt;服务名&lt;/th&gt;&lt;th&gt;服务状态&lt;/th&gt;&lt;th&gt;路由规则&lt;/th&gt;&lt;td&gt;说明&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;border: 1px solid #98bf21&quot;&gt;&lt;td&gt;roomsvr&lt;/td&gt;&lt;td&gt;弱状态&lt;br&gt;&lt;/td&gt;&lt;td&gt;全局类(主备)&lt;br&gt;&lt;/td&gt;&lt;td&gt;按照gid一致性HASH，&lt;br&gt;保证请求离散均匀&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;background-color: #eaf2d3 ; border: 1px solid #98bf21&quot;&gt;&lt;td&gt;排行榜&lt;/td&gt;&lt;td&gt;强状态&lt;/td&gt;&lt;td&gt;zoneid固定映射&lt;/td&gt;&lt;td&gt;rank数据&amp;nbsp;&lt;br&gt;宕机要进行数据恢复&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;border: 1px solid #98bf21&quot;&gt;&lt;td&gt;场景服&lt;br&gt;&lt;/td&gt;&lt;td&gt;弱状态&lt;br&gt;&lt;/td&gt;&lt;td&gt;一致性HASH&lt;/td&gt;&lt;td&gt;跨服玩法临时数据&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=#c0c0c0;fillColor=#ffffff;overflow=fill;rounded=0;align=center;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-688" y="1756" width="500" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="iuYlN9FxCsR312C4Vgvb-4" value="" style="endArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="rw5Lsq1zcSmXxzZfbOOx-286">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-2468" y="4025" as="sourcePoint" />
+            <mxPoint x="-2480" y="4049" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-2428" y="3989" />
+              <mxPoint x="-2428" y="4049" />
+              <mxPoint x="-2480" y="4049" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iuYlN9FxCsR312C4Vgvb-7" value="&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;add timer&lt;br&gt;超时停止服务&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-2488" y="3955" width="108" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
