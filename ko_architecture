@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-31T07:34:18.507Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="PsQ8tiNrTO4SmRKF_Cjf" version="13.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-31T08:01:17.177Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="kRgzpwmKcz5CkZd7XPmZ" version="13.6.5" type="github">
   <diagram id="SkZA7YbeRFNr9GJFuxhq" name="Page-1">
     <mxGraphModel dx="7024" dy="1096" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1857,6 +1857,9 @@
         </mxCell>
         <mxCell id="iuYlN9FxCsR312C4Vgvb-1" value="&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;原则：&lt;br&gt;1. Coord无法连接zk就standby，不再提供服务，因为无法拉取zk，提供服务也没有意义&lt;br&gt;2. 拉取zk前，必须先上报自己的状态&lt;br&gt;3. 拉取zk，对于主失效，备机激活，置zk上自己为主&lt;br&gt;&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-2085" y="4070" width="388" height="107" as="geometry" />
+        </mxCell>
+        <mxCell id="iuYlN9FxCsR312C4Vgvb-2" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width: 100% ; height: 100% ; border-collapse: collapse&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;background-color: #a7c942 ; color: #ffffff ; border: 1px solid #98bf21&quot;&gt;&lt;th&gt;服务名&lt;/th&gt;&lt;th&gt;服务状态&lt;/th&gt;&lt;th&gt;路由规则&lt;/th&gt;&lt;td&gt;说明&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;border: 1px solid #98bf21&quot;&gt;&lt;td&gt;roomsvr&lt;/td&gt;&lt;td&gt;弱状态&lt;br&gt;&lt;/td&gt;&lt;td&gt;全局类(主备)&lt;br&gt;&lt;/td&gt;&lt;td&gt;按照gid一致性HASH，&lt;br&gt;保证请求离散均匀&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;background-color: #eaf2d3 ; border: 1px solid #98bf21&quot;&gt;&lt;td&gt;排行榜&lt;/td&gt;&lt;td&gt;强状态&lt;/td&gt;&lt;td&gt;zoneid固定映射&lt;/td&gt;&lt;td&gt;rank数据&amp;nbsp;&lt;br&gt;宕机要进行数据恢复&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;border: 1px solid #98bf21&quot;&gt;&lt;td&gt;场景服&lt;br&gt;&lt;/td&gt;&lt;td&gt;弱状态&lt;br&gt;&lt;/td&gt;&lt;td&gt;一致性HASH&lt;/td&gt;&lt;td&gt;跨服玩法临时数据&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=#c0c0c0;fillColor=#ffffff;overflow=fill;rounded=0;align=center;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-688" y="1756" width="500" height="220" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
