@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-01T03:16:04.526Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="bdHGuPbTP9Nk6DIznH2u" version="13.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-01T04:12:18.585Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="bx-4UUVaDsQ1qKZ6LcFz" version="13.6.5" type="github">
   <diagram id="SkZA7YbeRFNr9GJFuxhq" name="Page-1">
     <mxGraphModel dx="6862" dy="1096" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1334,7 +1334,7 @@
         <mxCell id="rw5Lsq1zcSmXxzZfbOOx-212" value="&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;更新路由表&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-3727.5" y="1649" width="111" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="rw5Lsq1zcSmXxzZfbOOx-213" value="&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;Watch&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="rw5Lsq1zcSmXxzZfbOOx-213" value="&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;Pull&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-3813.5" y="1530" width="71.5" height="20" as="geometry" />
         </mxCell>
         <mxCell id="rw5Lsq1zcSmXxzZfbOOx-217" value="Coordinator" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;align=center;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
@@ -1409,7 +1409,7 @@
         <mxCell id="rw5Lsq1zcSmXxzZfbOOx-244" value="ZooKeeper" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="-3065" y="2464" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="rw5Lsq1zcSmXxzZfbOOx-245" value="&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;Watch&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="rw5Lsq1zcSmXxzZfbOOx-245" value="&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;Pull&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-3058.5" y="2561" width="71.5" height="20" as="geometry" />
         </mxCell>
         <mxCell id="rw5Lsq1zcSmXxzZfbOOx-246" value="" style="endArrow=classic;html=1;strokeColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;exitX=0.55;exitY=0.95;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="rw5Lsq1zcSmXxzZfbOOx-244" target="AVUgIYQoXHWyGgFTJyDg-27" edge="1">
