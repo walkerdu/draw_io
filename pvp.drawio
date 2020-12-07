@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-07T12:09:02.657Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="9ww36pl5U0uUYNUZaaLN" version="13.10.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-07T12:20:54.942Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="kQ8-UmmF72Il-AhFdwPO" version="13.10.9" type="github">
   <diagram id="Bp6JKUOrYxHD0rqzajSv" name="Page-1">
     <mxGraphModel dx="962" dy="1593" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -40,6 +40,9 @@
         <mxCell id="sM335oUsd0Nrfm-g1LFZ-10" value="&lt;font style=&quot;font-size: 14px&quot;&gt;计算单局一帧内的收到的所有action&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="500" y="620" width="140" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="sM335oUsd0Nrfm-g1LFZ-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sM335oUsd0Nrfm-g1LFZ-11" target="sM335oUsd0Nrfm-g1LFZ-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="sM335oUsd0Nrfm-g1LFZ-11" value="&lt;font style=&quot;font-size: 14px&quot;&gt;OnStateXXX()&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="645" y="720" width="120" height="60" as="geometry" />
         </mxCell>
@@ -48,6 +51,21 @@
         </mxCell>
         <mxCell id="sM335oUsd0Nrfm-g1LFZ-14" value="&lt;font style=&quot;font-size: 14px&quot;&gt;CUdpServS::Recv()&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="250" y="270" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sM335oUsd0Nrfm-g1LFZ-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sM335oUsd0Nrfm-g1LFZ-16" target="sM335oUsd0Nrfm-g1LFZ-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sM335oUsd0Nrfm-g1LFZ-16" value="&lt;font style=&quot;font-size: 14px&quot;&gt;frame_mgr_.&lt;br&gt;AddFrame()&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="645" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sM335oUsd0Nrfm-g1LFZ-18" value="&lt;span style=&quot;font-size: 14px&quot;&gt;将当前帧加入对局中&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="480" y="875" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sM335oUsd0Nrfm-g1LFZ-19" value="&lt;font style=&quot;font-size: 14px&quot;&gt;SendNotifyToAll()&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="645" y="1000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sM335oUsd0Nrfm-g1LFZ-21" value="&lt;span style=&quot;font-size: 14px&quot;&gt;同步帧到各个session&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="490" y="1010" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
