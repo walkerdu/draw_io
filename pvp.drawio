@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-08T04:24:35.992Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="RNVbSOKCUadYg8A2zNR9" version="13.10.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-08T06:38:08.722Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="iHu79LVUqOOxX_Si0vYa" version="13.10.9" type="github">
   <diagram id="Bp6JKUOrYxHD0rqzajSv" name="Page-1">
-    <mxGraphModel dx="962" dy="1593" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1789" dy="1593" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -43,8 +43,11 @@
         <mxCell id="sM335oUsd0Nrfm-g1LFZ-13" value="&lt;span style=&quot;font-size: 14px&quot;&gt;根据单局状态进行相关的单局设置&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="520" y="790" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sM335oUsd0Nrfm-g1LFZ-14" value="&lt;font style=&quot;font-size: 14px&quot;&gt;CUdpServS::Recv()&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="270" width="140" height="60" as="geometry" />
+        <mxCell id="sM335oUsd0Nrfm-g1LFZ-93" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sM335oUsd0Nrfm-g1LFZ-14" target="sM335oUsd0Nrfm-g1LFZ-92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sM335oUsd0Nrfm-g1LFZ-14" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;CUdpServS&lt;/b&gt;::Recv()&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="480" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sM335oUsd0Nrfm-g1LFZ-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sM335oUsd0Nrfm-g1LFZ-16" target="sM335oUsd0Nrfm-g1LFZ-19">
           <mxGeometry relative="1" as="geometry" />
@@ -191,12 +194,15 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sM335oUsd0Nrfm-g1LFZ-76" value="&lt;font style=&quot;font-size: 14px&quot;&gt;Game初始化&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="460" y="1940" width="120" height="60" as="geometry" />
+          <mxGeometry x="70" y="1940" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sM335oUsd0Nrfm-g1LFZ-78" value="&lt;font style=&quot;font-size: 14px&quot;&gt;CTimerMgrS::&lt;br&gt;AddTimer()&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="660" y="1940" width="120" height="60" as="geometry" />
+          <mxGeometry x="-120" y="1940" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sM335oUsd0Nrfm-g1LFZ-83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sM335oUsd0Nrfm-g1LFZ-80" target="sM335oUsd0Nrfm-g1LFZ-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sM335oUsd0Nrfm-g1LFZ-87" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sM335oUsd0Nrfm-g1LFZ-80" target="sM335oUsd0Nrfm-g1LFZ-86">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sM335oUsd0Nrfm-g1LFZ-80" value="&lt;font style=&quot;font-size: 14px&quot;&gt;AddRole2Game()&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
@@ -207,6 +213,86 @@
         </mxCell>
         <mxCell id="sM335oUsd0Nrfm-g1LFZ-84" value="&lt;font style=&quot;font-size: 14px&quot;&gt;GrpcServerS::&lt;br&gt;SendGameNtfToMQ()&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="510" y="1670" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sM335oUsd0Nrfm-g1LFZ-86" value="&lt;font style=&quot;font-size: 14px&quot;&gt;SessionMgrS::&lt;br&gt;AddSession()&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="495" y="1940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sM335oUsd0Nrfm-g1LFZ-88" value="&lt;span style=&quot;font-size: 14px&quot;&gt;添加对局的玩家&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="560" y="1850" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sM335oUsd0Nrfm-g1LFZ-89" value="&lt;span style=&quot;font-size: 14px&quot;&gt;创建对局&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="314" y="1850" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sM335oUsd0Nrfm-g1LFZ-90" value="&lt;span style=&quot;font-size: 14px&quot;&gt;设置对局结算通道&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="770" y="1850" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sM335oUsd0Nrfm-g1LFZ-91" value="&lt;span style=&quot;font-size: 14px&quot;&gt;为对局的每个玩家&lt;/span&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;建session, 等待玩家连接&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="560" y="2000" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sM335oUsd0Nrfm-g1LFZ-95" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sM335oUsd0Nrfm-g1LFZ-92" target="sM335oUsd0Nrfm-g1LFZ-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sM335oUsd0Nrfm-g1LFZ-92" value="&lt;font style=&quot;font-size: 14px&quot;&gt;epoll_wait()&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sM335oUsd0Nrfm-g1LFZ-97" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sM335oUsd0Nrfm-g1LFZ-94" target="sM335oUsd0Nrfm-g1LFZ-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sM335oUsd0Nrfm-g1LFZ-94" value="&lt;font style=&quot;font-size: 14px&quot;&gt;recvfrom()&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sM335oUsd0Nrfm-g1LFZ-99" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sM335oUsd0Nrfm-g1LFZ-96" target="sM335oUsd0Nrfm-g1LFZ-98">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sM335oUsd0Nrfm-g1LFZ-96" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;SessionMgrS&lt;/b&gt;::&lt;br&gt;GetSession()&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-460" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sM335oUsd0Nrfm-g1LFZ-101" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sM335oUsd0Nrfm-g1LFZ-98" target="sM335oUsd0Nrfm-g1LFZ-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sM335oUsd0Nrfm-g1LFZ-98" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;session&lt;/b&gt;-&amp;gt;&lt;br&gt;Recv()&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-690" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sM335oUsd0Nrfm-g1LFZ-104" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sM335oUsd0Nrfm-g1LFZ-100" target="sM335oUsd0Nrfm-g1LFZ-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sM335oUsd0Nrfm-g1LFZ-116" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sM335oUsd0Nrfm-g1LFZ-100" target="sM335oUsd0Nrfm-g1LFZ-115">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sM335oUsd0Nrfm-g1LFZ-100" value="&lt;font style=&quot;font-size: 14px&quot;&gt;ParseRecvData()&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-690" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sM335oUsd0Nrfm-g1LFZ-102" value="&lt;font style=&quot;font-size: 14px&quot;&gt;解析收到的包&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-610" y="780" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sM335oUsd0Nrfm-g1LFZ-103" value="&lt;font style=&quot;font-size: 14px&quot;&gt;OnRecvPkg()&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-460" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sM335oUsd0Nrfm-g1LFZ-105" value="&lt;font style=&quot;font-size: 14px&quot;&gt;收到合法包后, 更新ack/seq&amp;nbsp;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-450" y="780" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sM335oUsd0Nrfm-g1LFZ-110" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sM335oUsd0Nrfm-g1LFZ-103" target="sM335oUsd0Nrfm-g1LFZ-109">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-210.00000000000023" y="750" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sM335oUsd0Nrfm-g1LFZ-112" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sM335oUsd0Nrfm-g1LFZ-109" target="sM335oUsd0Nrfm-g1LFZ-111">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sM335oUsd0Nrfm-g1LFZ-109" value="&lt;font style=&quot;font-size: 14px&quot;&gt;丢弃重复action&lt;br&gt;去除过期vkey&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sM335oUsd0Nrfm-g1LFZ-111" value="&lt;span style=&quot;font-size: 14px&quot;&gt;actions_cache_.&lt;/span&gt;&lt;br style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;push()&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sM335oUsd0Nrfm-g1LFZ-113" value="&lt;font style=&quot;font-size: 14px&quot;&gt;处理action&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-200" y="780" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sM335oUsd0Nrfm-g1LFZ-114" value="&lt;font style=&quot;font-size: 14px&quot;&gt;保存action&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-40" y="780" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sM335oUsd0Nrfm-g1LFZ-115" value="&lt;font style=&quot;font-size: 14px&quot;&gt;IsCheckSumVaild()&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-690" y="860" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
