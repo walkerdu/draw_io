@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-26T07:27:23.952Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="-q_pq8h9wZt8ivFBlOXU" version="14.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-26T07:35:42.971Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="vtRR_VmfE0omnNH4y0Qr" version="14.1.1" type="github">
   <diagram id="2i-kSuf8YJ6PZaOD5piu" name="Page-1">
     <mxGraphModel dx="2062" dy="1122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -459,12 +459,15 @@
         </mxCell>
         <mxCell id="evAg2mKujsgtPa_T0E3i-4" value="" style="endArrow=classic;html=1;dashed=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1710" y="490.5" as="sourcePoint" />
-            <mxPoint x="1820" y="490" as="targetPoint" />
+            <mxPoint x="1730" y="584.5" as="sourcePoint" />
+            <mxPoint x="1840" y="584" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="evAg2mKujsgtPa_T0E3i-5" value="&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;解决这个问题：不允许提前消费，head=tail时候也认为队列为空&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1830" y="430" width="260" height="110" as="geometry" />
+          <mxGeometry x="1880" y="530" width="230" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="evAg2mKujsgtPa_T0E3i-6" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;b style=&quot;font-size: 14px&quot;&gt;此时：tail指向的节点可能已经被释放回freelist，多线程写入的状态可能为：&lt;/b&gt;&lt;/div&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;b&gt;W1：写入节点后，stop在移动tail的原子操作中&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: bold ; text-align: left&quot;&gt;&lt;b&gt;W2：从freelist中获取已经释放的tail指向的node，置node为use中，&lt;br&gt;W1：误认为tail还指向node，将tail指向node下一个节点，因为GetFreeNode没有清空node，所以会导致tail指向freelist&lt;br&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;这个问题本质上还是ABA问题&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="608" width="500" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
