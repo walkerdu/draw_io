@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-28T12:02:59.976Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="HFLYftMWDgIt0bOd4gp6" version="14.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-28T12:03:06.819Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="WFl-MCqdHC5Sn5z8qQhL" version="14.1.2" type="github">
   <diagram id="2i-kSuf8YJ6PZaOD5piu" name="Page-1">
     <mxGraphModel dx="2062" dy="1122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -606,7 +606,7 @@
           <mxGeometry x="1226" y="1627.5" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4LVwWJnmChwBG1AwSLE_-1" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;b style=&quot;font-size: 14px&quot;&gt;A-next != NULL, W1判断失败，更新tail&lt;/b&gt;&lt;/div&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;b&gt;A-&amp;gt;next==NULL, W1判断成功，将执行A-&amp;gt;next=B，但是更新tail失败&lt;/b&gt;&lt;/div&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1550" y="1790" width="530" height="79" as="geometry" />
+          <mxGeometry x="1450" y="1670" width="530" height="79" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
