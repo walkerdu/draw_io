@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-14T07:56:38.365Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Pp8-SI9un10Ne2AUtd5i" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-14T07:58:05.558Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="MhDpsXc9nHq0wMaA32-0" version="20.5.3" type="github">
   <diagram id="e3Yrdo15SmmhL8X60xc8" name="第 1 页">
-    <mxGraphModel dx="2066" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2066" dy="1129" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -150,7 +150,7 @@
           <mxGeometry x="520" y="175" width="380" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qaPD98lL8b2j3EAxigMS-88" value="最底层的layerdb的diff和ChainID相等" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=0;strokeWidth=1;fontFamily=Helvetica;fontSize=16;fontColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="880" y="600" width="270" height="30" as="geometry" />
+          <mxGeometry x="851" y="600" width="270" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qaPD98lL8b2j3EAxigMS-89" value="" style="endArrow=classic;html=1;rounded=0;shadow=0;sketch=1;strokeColor=#3333FF;strokeWidth=1;fontFamily=Helvetica;fontSize=16;fontColor=#FF0000;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="qaPD98lL8b2j3EAxigMS-84" target="qaPD98lL8b2j3EAxigMS-44">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -168,19 +168,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="qaPD98lL8b2j3EAxigMS-93" value="&lt;font color=&quot;#ff0000&quot;&gt;通过SHA256(parent layer ChainID + 本层的diffid)计算出本层的ChainID，然后通过layerdb维护的ChainID-&amp;gt;cache-id，找到最终Layer存储的原始数据&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=0;strokeWidth=1;fontFamily=Helvetica;fontSize=16;fontColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="880" y="660" width="570" height="30" as="geometry" />
+          <mxGeometry x="851" y="660" width="570" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qaPD98lL8b2j3EAxigMS-94" value="&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;1&lt;/font&gt;&lt;/b&gt;" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=0;shadow=0;glass=0;sketch=0;strokeColor=#330000;strokeWidth=1;fontFamily=Helvetica;fontSize=16;fontColor=#FF0000;fillColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="1125" y="463" width="25" height="25" as="geometry" />
         </mxCell>
         <mxCell id="qaPD98lL8b2j3EAxigMS-96" value="&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;1&lt;/font&gt;&lt;/b&gt;" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=0;shadow=0;glass=0;sketch=0;strokeColor=#330000;strokeWidth=1;fontFamily=Helvetica;fontSize=16;fontColor=#FF0000;fillColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="845" y="600" width="25" height="25" as="geometry" />
+          <mxGeometry x="816" y="600" width="25" height="25" as="geometry" />
         </mxCell>
         <mxCell id="qaPD98lL8b2j3EAxigMS-97" value="&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;2&lt;/font&gt;&lt;/b&gt;" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=0;shadow=0;glass=0;sketch=0;strokeColor=#330000;strokeWidth=1;fontFamily=Helvetica;fontSize=16;fontColor=#FF0000;fillColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="900" y="287.5" width="25" height="25" as="geometry" />
         </mxCell>
         <mxCell id="qaPD98lL8b2j3EAxigMS-98" value="&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;2&lt;/font&gt;&lt;/b&gt;" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=0;shadow=0;glass=0;sketch=0;strokeColor=#330000;strokeWidth=1;fontFamily=Helvetica;fontSize=16;fontColor=#FF0000;fillColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="845" y="650" width="25" height="25" as="geometry" />
+          <mxGeometry x="816" y="650" width="25" height="25" as="geometry" />
         </mxCell>
         <mxCell id="qaPD98lL8b2j3EAxigMS-99" value="&lt;font color=&quot;#ff0000&quot;&gt;ImageID&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=0;strokeWidth=1;fontFamily=Helvetica;fontSize=16;fontColor=#0000FF;" vertex="1" parent="1">
           <mxGeometry x="473" y="249" width="60" height="30" as="geometry" />
