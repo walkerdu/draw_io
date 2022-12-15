@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-15T09:53:30.056Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="5_o3ZIDjvKqp1aHphXYZ" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-15T09:54:25.765Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="ckuDf0JxAeUHx1X66wmN" version="20.5.3" type="github">
   <diagram id="e3Yrdo15SmmhL8X60xc8" name="第 1 页">
     <mxGraphModel dx="2066" dy="1129" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -578,9 +578,6 @@
             <mxPoint x="2469" y="541" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qaPD98lL8b2j3EAxigMS-221" value="&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;1&lt;/font&gt;&lt;/b&gt;" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=0;shadow=0;glass=0;sketch=0;strokeColor=#330000;strokeWidth=1;fontFamily=Helvetica;fontSize=16;fontColor=#FF0000;fillColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="2634" y="704" width="25" height="25" as="geometry" />
-        </mxCell>
         <mxCell id="qaPD98lL8b2j3EAxigMS-227" value="diffid-by-digest" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=1;strokeColor=#0e8088;strokeWidth=1;fontFamily=Helvetica;fontSize=16;fillColor=#7EA6E0;" vertex="1" parent="1">
           <mxGeometry x="2144" y="485" width="140" height="90" as="geometry" />
         </mxCell>
@@ -646,6 +643,9 @@
         </mxCell>
         <mxCell id="qaPD98lL8b2j3EAxigMS-243" value="&lt;font color=&quot;#ff0000&quot;&gt;Digest&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=0;strokeWidth=1;fontFamily=Helvetica;fontSize=16;fontColor=#00CCCC;" vertex="1" parent="1">
           <mxGeometry x="1997" y="515" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qaPD98lL8b2j3EAxigMS-244" value="&lt;font color=&quot;#ff0000&quot;&gt;从Digest到Layer存储之间的管理和映射&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=0;strokeWidth=1;fontFamily=Helvetica;fontSize=16;fontColor=#330000;" vertex="1" parent="1">
+          <mxGeometry x="2070" y="333" width="320" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
